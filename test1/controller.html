@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Controller</title>
+	<!-- 引用Bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<!--引用js-->
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/angular.min.js"></script>
+</head>
+<body class="body">
+	<header class="btn_header">
+   	<nav class="nav">
+   	     <button class="nav_left_btn pull-left  btn btn-success" type="button">Left</button>
+   	     <h2 class="text-center center-block">Bootstrap CSS组件</h1>
+    </nav>
+   </header>
+   <div class="container">
+   	  <div class="dropdown btn-group">
+   	     <button type="button" class="btn btn-default btn-info" data-toggle="dropdown">下拉菜单</button>
+   	     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+   	     	<li><a tabindex="-1" href="#">Action1</a></li>
+            <li><a tabindex="-1" href="#">Action2</a></li>
+            <li><a tabindex="-1" href="#">Action3</a></li>
+            <li class="divider"></li>
+            <li><a tabindex="-1" href="#">Action4</a></li>
+   	     </ul>
+   	  </div>
+   	  <div class="dropdown btn-group">
+   	     <button type="button" class="btn btn-default btn-info btn-link" data-toggle="dropdown">下拉菜单1</button>
+   	     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+   	     	<li><a tabindex="-1" href="#">Action1</a></li>
+            <li><a tabindex="-1" href="#">Action2</a></li>
+            <li><a tabindex="-1" href="#">Action3</a></li>
+            <li class="divider"></li>
+            <li><a tabindex="-1" href="#">Action4</a></li>
+   	     </ul>
+   	  </div>
+   </div>
+   <footer></footer>
+</body>
+<style type="text/css">
+.nav_left_btn{
+     position: absolute;
+     margin-top: 21px;
+     margin-left: 2px;
+}
+
+.nav_right_btn{
+     float: right;
+     margin-top: 5px;
+     margin-bottom: 22px;
+}
+.btn_header{
+    padding-bottom: 9px;
+    margin: 12px 0 13px;
+    border-bottom: 1px solid #eee
+
+}
+
+
+</style>
+</html>
